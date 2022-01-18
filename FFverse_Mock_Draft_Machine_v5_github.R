@@ -258,8 +258,6 @@ repeat{
 }
 #
 
-
-## 1800 presents the 
 combined_mocks <- map_dfr(paste0("Draft",1:Count,".csv"),readr::read_csv) 
 
 
